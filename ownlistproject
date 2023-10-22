@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Common CSS property</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="top_heading">Common CSS properties</h1>
+
+    <!-- Display Table -->
+    <section id="display">
+        <h3 class="table_heading">Display</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="property">block</td>
+                    <td class="description">Element take over all the horizontal space itself. It can adjust the height and width of element</td>
+                </tr>
+                <tr>
+                    <td class="property">inline</td>
+                    <td>Element can share horizontal space with other elements. But it can't adjuts height and width of element</td>
+                </tr>
+                <tr>
+                    <td class="property">inline-block</td>
+                    <td class="description">Element can share horizontal space with other element and able to adjust height and width of element </td>
+                </tr>
+
+            </tbody>
+           
+        </table>
+
+    </section>
+
+
+    <!-- Width & Height Table -->
+    <section id="Width and Height">
+        <h3 class="table_heading">Width & Height</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>px</td>
+                    <td>Pixel</td>
+                </tr>
+                <tr>
+                    <td>em</td>
+                    <td>It is a computer pixel, which is related to font size of parent element </td>
+                </tr>
+                <tr>
+                    <td>rem</td>
+                    <td>It is also a computer pixel, whcih is related to root font font size  </td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>Precentages</td>
+                </tr>
+                <tr>
+                    <td>auto</td>
+                    <td>It will auto adjust the weight of element and make sure element will not bigger than its container</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+    <!-- Border -->
+    <section id="border">
+        <h3 class="table_heading">Border</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>border-width</td>
+                    <td>width of border</td>
+                </tr>
+                <tr>
+                    <td>border-style</td>
+                    <td>style of the border. Usual value are solid and dashed </td>
+                </tr>
+                <tr>
+                    <td>border-color</td>
+                    <td>color of the border.</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
